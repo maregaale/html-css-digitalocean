@@ -24,7 +24,9 @@ ul {
   background-color: #f3f5f9;
 }
 
-.padd_td_120
+.padd_td_80 {
+  padding: 80px 0;
+}
 /* /Mix */
 
 /* Typo */
@@ -44,6 +46,12 @@ h2 {
 
 h3 {
   font-size: 30px;
+}
+
+h5 {
+  font-size: 20px;
+  color: #5b6987;
+  font-weight: 400;
 }
 /* /Typo */
 
@@ -214,6 +222,14 @@ h3 {
 .angle_right {
   margin-left: 5px;
 }
+/* /sezione solutions */
+
+/* sezione deploy */
+.deploy h5 {
+  padding: 10px 68px;
+}
+/* /sezione deploy */
+
 /* /corpo del progetto */
 
 
@@ -243,6 +259,11 @@ h3 {
   .form_container {
     margin-top: 30px;
   }
+
+  /* deploy */
+  .deploy h5 {
+    padding: 10px 60px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -258,6 +279,12 @@ h3 {
 
   .cust_stories {
     font-size: 18px;
+  }
+
+  /* deploy */
+  .deploy h5 {
+    padding: 10px 30px;
+    font-size: 20px;
   }
 
 }
