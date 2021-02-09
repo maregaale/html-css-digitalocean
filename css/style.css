@@ -34,7 +34,7 @@ ul {
 }
 
 .header_top li {
-  margin: 0 8px;
+  margin: 0 4px;
 }
 
 .header_top a {
@@ -60,5 +60,33 @@ ul {
   font-size: 16px;
 }
 
+/* Hamburgher Menu */
+.menu {
+  padding-right: 25px;
+  display: none;
+  color: black;
+}
+
+.menu i {
+  font-size: 18px;
+}
 /* /header_top */
 /* /Intestazione */
+
+
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+
+  .main_nav, .secondary_nav ul {
+    display: none;
+  }
+
+  .secondary_nav {
+    float: right !important;
+  }
+
+  .menu {
+    display: block;
+  }
+}
