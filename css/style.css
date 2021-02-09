@@ -7,6 +7,18 @@ ul {
   padding: 0;
   margin: 0;
 }
+
+.border_rad {
+  border-radius: 7px;
+}
+
+.border_rad_4 {
+  border-radius: 4px;
+}
+
+.color_primary {
+  color:  #006aff;
+}
 /* /Mix */
 
 /* Typo */
@@ -15,12 +27,24 @@ h1 {
   margin-bottom: 30px;
 }
 
+h2, h3 {
+  color: #031b4e;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
 /* /Typo */
 
 /* Buttons */
 .secondary_nav .btn_empty {
   border: 1px solid #006aff;
-  color: #006aff;
+  color:  #006aff;
 }
 
 /* /Buttons */
@@ -82,7 +106,7 @@ h1 {
 /* Hero */
 .hero {
   margin-top: 70px;
-  height: 800px;
+  padding: 100px 0;
   background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
   background-size: cover;
   background-position: center center;
@@ -90,18 +114,75 @@ h1 {
 
 .hero .main_title {
   color: white;
-  height: 800px;
+
+}
+
+.hero .main_title p {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.form_container {
+  background-color: white;
+  padding: 25px 15px;
+}
+
+.account_form input {
+  display: block;
+  width: 100%;
+  border: 1px solid lightgrey;
+  line-height: 40px;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.account_form a {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.account_form p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.account_form p a {
+  display: inline;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.form_container a:hover {
+  text-decoration: none;
+}
+
+.form_container > p a {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#btn_account {
+  background-color: #579AFF;
+  color: white;
+}
+
+#btn_google {
+  background-color: white;
+  color: #2F4F4F;
+  box-shadow: 2px 2px 3px lightgrey;
   position: relative;
 }
 
-.hero .main_title .text_container {
+#btn_google img {
+  max-height: 25px;
   position: absolute;
+  left: 10px;
   top: 50%;
   transform: translateY(-50%);
-}
-.hero .main_title p {
-  font-size: 24px;
-  color: rgba(255, 255, 255, 0.7);
 }
 /* /Hero */
 /* /Intestazione */
@@ -111,6 +192,13 @@ h1 {
 /* Responsive */
 @media screen and (max-width: 992px) {
 
+  h1 {
+    font-size: 38px;
+  }
+
+  .hero .main_title p {
+    font-size: 23px;
+  }
   .main_nav, .secondary_nav ul {
     display: none;
   }
@@ -121,5 +209,9 @@ h1 {
 
   .menu {
     display: block;
+  }
+
+  .form_container {
+    margin-top: 30px;
   }
 }
