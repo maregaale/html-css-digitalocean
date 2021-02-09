@@ -8,6 +8,10 @@ ul {
   margin: 0;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .border_rad {
   border-radius: 7px;
 }
@@ -48,11 +52,23 @@ h3 {
   font-size: 30px;
 }
 
+h4 {
+  color: #031b4e;
+  margin-top: 25px;
+}
+
 h5 {
   font-size: 20px;
   color: #5b6987;
   font-weight: 400;
 }
+
+p {
+  color: rgba(3, 27, 78, 0.6);
+  font-size: 15px;
+  font-weight: 500;
+}
+
 /* /Typo */
 
 /* Buttons */
@@ -89,7 +105,6 @@ h5 {
 }
 
 .header_top a:hover {
-  text-decoration: none;
   color: #006aff;
 }
 
@@ -227,7 +242,32 @@ h5 {
 /* sezione deploy */
 .deploy h5 {
   padding: 10px 68px;
+  margin-bottom: 70px;
 }
+
+.list_container {
+  border-left: 2px solid lightgrey;
+}
+
+.list_container ul {
+  list-style: none;
+}
+
+.list_container ul li {
+  padding: 10px;
+}
+
+.list_container ul li a {
+  color: rgba(3, 27, 78, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.list_container ul li a:hover {
+  color: black;
+}
+
+
 /* /sezione deploy */
 
 /* /corpo del progetto */
@@ -285,6 +325,10 @@ h5 {
   .deploy h5 {
     padding: 10px 30px;
     font-size: 20px;
+  }
+
+  .deploy_img {
+    margin-top: 40px;
   }
 
 }
