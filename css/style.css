@@ -10,7 +10,10 @@ ul {
 /* /Mix */
 
 /* Typo */
-
+h1 {
+  font-size: 58px;
+  margin-bottom: 30px;
+}
 
 /* /Typo */
 
@@ -75,6 +78,32 @@ ul {
   font-size: 18px;
 }
 /* /header_top */
+
+/* Hero */
+.hero {
+  margin-top: 70px;
+  height: 800px;
+  background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero .main_title {
+  color: white;
+  height: 800px;
+  position: relative;
+}
+
+.hero .main_title .text_container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hero .main_title p {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* /Hero */
 /* /Intestazione */
 
 
