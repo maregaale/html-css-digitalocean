@@ -19,6 +19,12 @@ ul {
 .color_primary {
   color:  #006aff;
 }
+
+.bg_grey {
+  background-color: #f3f5f9;
+}
+
+.padd_td_120
 /* /Mix */
 
 /* Typo */
@@ -187,6 +193,29 @@ h3 {
 /* /Hero */
 /* /Intestazione */
 
+/* corpo del progetto */
+/* sezione solutions */
+.solutions {
+  padding: 65px 0;
+}
+
+.solutions h4 {
+  color: rgb(91, 105, 135);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.solutions img {
+  width: calc((100% / 6) - 4px);
+  padding: 0 10px;
+  vertical-align: middle;
+}
+
+.angle_right {
+  margin-left: 5px;
+}
+/* /corpo del progetto */
+
 
 
 /* Responsive */
@@ -214,4 +243,21 @@ h3 {
   .form_container {
     margin-top: 30px;
   }
+}
+
+@media screen and (max-width: 768px) {
+
+  .solutions img {
+    width: calc(50% - 4px);
+    padding: 0 20px;
+  }
+
+  .solutions h4 {
+    font-size: 19px;
+  }
+
+  .cust_stories {
+    font-size: 18px;
+  }
+
 }
