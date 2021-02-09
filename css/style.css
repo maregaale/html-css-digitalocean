@@ -39,7 +39,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-h2, h3 {
+h2, h3, h4 {
   color: #031b4e;
   font-weight: bold;
 }
@@ -53,7 +53,6 @@ h3 {
 }
 
 h4 {
-  color: #031b4e;
   margin-top: 25px;
 }
 
@@ -247,6 +246,7 @@ p {
 
 .list_container {
   border-left: 2px solid lightgrey;
+  margin-top: 40px;
 }
 
 .list_container ul {
@@ -267,7 +267,9 @@ p {
   color: black;
 }
 
-
+.deploy_img {
+  margin-top: 40px;
+}
 /* /sezione deploy */
 
 /* /corpo del progetto */
@@ -324,11 +326,20 @@ p {
   /* deploy */
   .deploy h5 {
     padding: 10px 30px;
-    font-size: 20px;
+    font-size: 22px;
   }
 
-  .deploy_img {
-    margin-top: 40px;
+  .list_container ul li a {
+    font-size: 21px;
   }
+
+  h4 {
+    font-size: 21px;
+  }
+
+  p {
+    font-size: 19px;
+  }
+
 
 }
