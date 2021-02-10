@@ -476,6 +476,21 @@ p {
     max-width: 430px;
   }
 
+  .teams_love .carosel_inner p {
+    font-size: 30px;
+    margin-bottom: 14px;
+  }
+
+  .teams_love .carosel_inner .member_name,
+  .teams_love .carosel_inner .member_role,
+  .teams_love .carosel_inner .custom_link {
+    font-size: 20px;
+  }
+
+  .bullets i {
+    font-size: 16px;
+  }
+
 }
 
 
@@ -543,6 +558,20 @@ p {
   /* teams-love */
     .rockerbox {
     max-width: 100%;
+  }
+
+  .teams_love .carosel_inner p {
+    font-size: 36px;
+  }
+
+  .teams_love .carosel_inner .member_name,
+  .teams_love .carosel_inner .member_role,
+  .teams_love .carosel_inner .custom_link {
+    font-size: 24px;
+  }
+
+  .bullets i {
+    font-size: 16px;
   }
 
 
