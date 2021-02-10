@@ -334,6 +334,56 @@ p {
 }
 /* /sezione features */
 
+/* sezione service-customers */
+.service_customers {
+  background: rgb(0,30,153);
+  background: linear-gradient(0deg, rgba(0,30,153,1) 30%, rgba(0,72,197,1) 71%);
+  color: white;
+}
+
+.service_customers h2 {
+  color: white;
+}
+
+/* tabella */
+.places_container {
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+}
+
+.places_code,
+.places_name,
+.test_speed {
+  display: inline-block;
+  font-size: 13px;
+}
+
+.places_code {
+  width: calc(20% - 4px);
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+.places_name {
+  width: calc(50% - 4px);
+  opacity: 0.6;
+}
+
+.test_speed {
+  width: calc(30% - 4px);
+  padding-right: 15px;
+}
+
+.test_speed a {
+  font-size: 13px;
+  color: #00d7d2;
+}
+
+.test_speed a:hover {
+  color: #1633ff;
+}
+/* /sezione service-customers */
+
 /* /corpo del progetto */
 
 
@@ -373,7 +423,20 @@ p {
   .features p {
     padding-right: 0;
   }
+
+  /* service-customers */
+  .service_customers h2 {
+    font-size: 38px;
+  }
+
+  .places_code,
+  .places_name,
+  .test_speed a {
+    font-size: 16px;
+  }
+
 }
+
 
 @media screen and (max-width: 768px) {
 
@@ -425,5 +488,10 @@ p {
 
   .features .last_link {
     margin-bottom: 0;
+  }
+
+  /* service-customers */
+  .service_customers h2 {
+    font-size: 34px;
   }
 }
