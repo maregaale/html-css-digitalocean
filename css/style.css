@@ -12,6 +12,15 @@ a:hover {
   text-decoration: none;
 }
 
+.custom_link {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.custom_link:hover {
+  color: #1633ff;
+}
+
 .border_rad {
   border-radius: 7px;
 }
@@ -314,6 +323,12 @@ p {
   color:  #006aff;
 }
 /* /sezione designed */
+
+/* sezione features */
+.features h2 {
+  margin-bottom: 40px;
+}
+/* /sezione features */
 
 /* /corpo del progetto */
 
