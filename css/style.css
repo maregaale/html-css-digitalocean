@@ -336,8 +336,7 @@ p {
 
 /* sezione service-customers */
 .service_customers {
-  background: rgb(0,30,153);
-  background: linear-gradient(0deg, rgba(0,30,153,1) 30%, rgba(0,72,197,1) 71%);
+  background: linear-gradient(0deg, rgba(0,30,153,1) 9%, rgba(0,72,197,1) 90%);
   color: white;
 }
 
@@ -414,8 +413,26 @@ p {
 .teams_love .carosel_inner .member_role {
   margin-bottom: 30px;
 }
-
 /* /sezione teams-love */
+
+/* sezione start */
+.start {
+  background: linear-gradient(0deg, #00209B 9%, #0042BB 90%);
+}
+
+.start h2 {
+  color: white;
+}
+
+.btn_acc_start {
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+/* /sezione start */
 /* /corpo del progetto */
 
 
@@ -425,6 +442,10 @@ p {
 
   h1 {
     font-size: 38px;
+  }
+
+  h2 {
+    font-size: 40px;
   }
 
   .hero .main_title p {
@@ -489,6 +510,11 @@ p {
 
   .bullets i {
     font-size: 16px;
+  }
+
+  /* sezione start */
+  .btn_acc_start {
+    font-size: 20px;
   }
 
 }
@@ -574,5 +600,9 @@ p {
     font-size: 16px;
   }
 
-
+  /* sezione start */
+  .btn_acc_start {
+    font-size: 24px;
+  }
+  
 }
