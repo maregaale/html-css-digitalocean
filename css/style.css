@@ -54,7 +54,7 @@ h2, h3, h4 {
 }
 
 h2 {
-  font-size: 34px;
+  font-size: 36px;
 }
 
 h3 {
@@ -471,10 +471,23 @@ p {
     margin-bottom: 30px;
   }
 
+  /* teams-love */
+  .rockerbox {
+    max-width: 430px;
+  }
+
 }
 
 
 @media screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
 
   .custom_link {
     font-size: 19px;
@@ -526,8 +539,11 @@ p {
     margin-bottom: 0;
   }
 
-  /* service-customers */
-  .service_customers h2 {
-    font-size: 34px;
+
+  /* teams-love */
+    .rockerbox {
+    max-width: 100%;
   }
+
+
 }
