@@ -65,7 +65,7 @@ h4 {
   margin-top: 25px;
 }
 
-h5 {
+h5, .teams_love .carosel_inner p {
   font-size: 20px;
   color: #5b6987;
   font-weight: 400;
@@ -303,13 +303,13 @@ p {
   padding-top: 25px;
 }
 
-.designed i {
+.carosel_angle {
   vertical-align: middle;
   font-size: 42px;
   color: #031b4e;
 }
 
-.designed i:first-child {
+.carosel_angle:first-child {
   color: #5b6987;
 }
 
@@ -387,6 +387,35 @@ p {
 }
 /* /sezione service-customers */
 
+/* sezione teams-love */
+.teams_love .carosel_inner {
+  margin: 80px 30px 20px 30px;
+  max-width: 540px;
+  padding: 70px 10px;
+  background-color: white;
+}
+
+.rockerbox {
+  max-width: 200px;
+}
+
+.teams_love .carosel_inner .member_name,
+.teams_love .carosel_inner .member_role {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  color: #031b4e;
+}
+
+.teams_love .carosel_inner .member_name {
+  font-weight: bold;
+}
+
+.teams_love .carosel_inner .member_role {
+  margin-bottom: 30px;
+}
+
+/* /sezione teams-love */
 /* /corpo del progetto */
 
 
@@ -483,7 +512,7 @@ p {
   }
 
   /* designed */
-  .designed .carosel_angle {
+  .carosel_angle {
     display: none;
   }
 
