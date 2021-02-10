@@ -272,6 +272,49 @@ p {
 }
 /* /sezione deploy */
 
+/* sezione designed */
+.designed h5 {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.carosel_inner {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 30px;
+  max-width: 650px;
+}
+
+.carosel_inner img {
+  width: 100%;
+}
+
+.carosel_inner p {
+  color: #031b4e;
+  padding-top: 25px;
+}
+
+.designed i {
+  vertical-align: middle;
+  font-size: 42px;
+  color: #031b4e;
+}
+
+.designed i:first-child {
+  color: #5b6987;
+}
+
+
+.bullets i {
+  font-size: 10px;
+  color:  #006aff;
+}
+
+.bullets i:first-child {
+  color:  #006aff;
+}
+/* /sezione designed */
+
 /* /corpo del progetto */
 
 
@@ -341,5 +384,8 @@ p {
     font-size: 19px;
   }
 
-
+  /* designed */
+  .designed .carosel_angle {
+    display: none;
+  }
 }
