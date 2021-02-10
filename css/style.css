@@ -348,6 +348,9 @@ p {
 /* tabella */
 .places_container {
   padding: 10px 0;
+}
+
+.places_container:not(:last-of-type) {
   border-bottom: 1px solid white;
 }
 
@@ -433,6 +436,10 @@ p {
   .places_name,
   .test_speed a {
     font-size: 16px;
+  }
+
+  .places_container:last-of-type {
+    margin-bottom: 30px;
   }
 
 }
