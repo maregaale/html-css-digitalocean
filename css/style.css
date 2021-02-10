@@ -328,6 +328,10 @@ p {
 .features h2 {
   margin-bottom: 40px;
 }
+
+.features p {
+  padding-right: 25px;
+}
 /* /sezione features */
 
 /* /corpo del progetto */
@@ -364,9 +368,18 @@ p {
   .deploy h5 {
     padding: 10px 60px;
   }
+
+  /* features */
+  .features p {
+    padding-right: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
+
+  .custom_link {
+    font-size: 19px;
+  }
 
   .solutions img {
     width: calc(50% - 4px);
@@ -402,5 +415,15 @@ p {
   /* designed */
   .designed .carosel_angle {
     display: none;
+  }
+
+  /* features */
+  .features a {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+  .features .last_link {
+    margin-bottom: 0;
   }
 }
