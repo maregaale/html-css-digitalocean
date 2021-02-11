@@ -685,6 +685,32 @@ footer h6 {
     margin-top: 20px;
   }
 
+  /* triangolo fumetto */
+  .shark_text:after,
+  .shark_text:before {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 100%;
+      width: 0;
+      height: 0;
+      border-style: solid;
+  }
+
+  .shark_text:after {
+    left: 20px;
+    top: -20px;
+    border-color: transparent transparent white transparent ;
+    border-width: 10px;
+  }
+
+  .shark_text:before {
+    left: 19px;
+    top: -22px;
+    border-color: transparent transparent lightgrey transparent ;
+    border-width: 11px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
