@@ -492,6 +492,7 @@ footer h6 {
 
 .shark_logo_container {
   position: relative;
+  left: 325px;
   max-width: 65px;
   background-color: #006AFF;
   padding: 10px 2px;
@@ -505,6 +506,7 @@ footer h6 {
 
 .shark_text {
   position: relative;
+  right: 87px;
   max-width: 325px;
   background-color: white;
   margin-right: 22px;
@@ -665,6 +667,22 @@ footer h6 {
 
   .social a {
     font-size: 24px;
+  }
+
+  /* logo squalo */
+  .logo_bubble_container {
+    left: 50px;
+    bottom: 20px;
+  }
+
+  .shark_text,
+  .shark_logo_container {
+    display: block;
+    left: 0;
+  }
+
+  .shark_text {
+    margin-top: 20px;
   }
 
 }
