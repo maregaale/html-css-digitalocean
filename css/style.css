@@ -77,6 +77,10 @@ p {
   font-weight: 500;
 }
 
+.white_soft {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+}
 /* /Typo */
 
 /* Buttons */
@@ -435,6 +439,37 @@ p {
 /* /sezione start */
 /* /corpo del progetto */
 
+/* footer */
+footer {
+  background-color: #031C4E;
+}
+
+footer .copyright {
+  margin: 0;
+}
+
+footer .copyright.white_soft {
+  margin-top: 10px;
+}
+
+footer a:hover {
+  color: white;
+}
+.made_in {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.social {
+  margin-top: 13px;
+}
+
+.social a {
+  margin-right: 6px;
+  font-size: 20px;
+}
+/* /footer */
+
 
 
 /* Responsive */
@@ -515,6 +550,15 @@ p {
   /* sezione start */
   .btn_acc_start {
     font-size: 20px;
+  }
+
+  /* footer */
+  .made_in, .white_soft {
+    font-size: 16px;
+  }
+
+  .social a {
+    font-size: 24px;
   }
 
 }
@@ -604,5 +648,5 @@ p {
   .btn_acc_start {
     font-size: 24px;
   }
-  
+
 }
