@@ -491,6 +491,7 @@ footer h6 {
 }
 
 .shark_logo_container {
+  position: relative;
   max-width: 70px;
   background: #006AFF;
   padding: 10px 2px;
@@ -521,7 +522,8 @@ footer h6 {
 }
 
 /* triangolo fumetto */
-.arrow-right {
+.shark_text::after {
+  content: "";
   position: absolute;
   left: 100%;
   top: 40px;
