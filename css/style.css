@@ -482,6 +482,42 @@ footer h6 {
 .list_link li {
   margin-bottom: 8px;
 }
+
+.logo_bubble_container {
+  position: fixed;
+  right: 70px;
+  bottom: 50px;
+
+}
+
+.shark_logo_container {
+  max-width: 70px;
+  background: #006AFF;
+  padding: 10px 2px;
+  border-radius: 5px;
+}
+
+.shark_text, .shark_logo_container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.shark_text {
+  max-width: 340px;
+  background-color: white;
+  margin-right: 30px;
+  padding: 15px 40px 15px 10px;
+  border-radius: 5px;
+}
+
+.shark_text p {
+  margin-bottom: 0;
+  color: #031b4e;
+}
+
+.shark_logo_container img {
+  width: 100%;
+}
 /* /footer */
 
 
