@@ -590,6 +590,11 @@ footer h6 {
     font-size: 40px;
   }
 
+  .padd_td_80 {
+    padding: 60px 0;
+  }
+
+  /* header top */
   .hero .main_title p {
     font-size: 23px;
   }
@@ -605,9 +610,19 @@ footer h6 {
     display: block;
   }
 
+  /* hero */
+  .hero {
+    padding: 80px 0;
+  }
+
   /* deploy */
   .deploy h5 {
     padding: 10px 60px;
+  }
+
+  /* solutions */
+  .solutions {
+    padding: 55px 0;
   }
 
   /* features */
@@ -636,18 +651,18 @@ footer h6 {
   }
 
   .teams_love .carousel_inner p {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 14px;
   }
 
   .teams_love .carousel_inner .member_name,
   .teams_love .carousel_inner .member_role,
   .teams_love .carousel_inner .custom_link {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .bullets i {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   /* sezione start */
@@ -693,7 +708,7 @@ footer h6 {
   .shark_logo_container {
     max-width: 60px;
   }
-  
+
   .shark_text:after,
   .shark_text:before {
       content: '';
@@ -733,7 +748,7 @@ footer h6 {
 
   /* hero */
   .hero {
-    padding: 80px 0;
+    padding: 60px 0;
   }
   .form_container {
     margin-top: 30px;
@@ -794,19 +809,18 @@ footer h6 {
     .rockerbox {
     max-width: 100%;
   }
-
+  .teams_love .carousel_inner {
+    padding: 50px 10px;
+  }
+  
   .teams_love .carousel_inner p {
-    font-size: 36px;
+    font-size: 25px;
   }
 
   .teams_love .carousel_inner .member_name,
   .teams_love .carousel_inner .member_role,
   .teams_love .carousel_inner .custom_link {
-    font-size: 24px;
-  }
-
-  .bullets i {
-    font-size: 16px;
+    font-size: 19px;
   }
 
   /* sezione start */
