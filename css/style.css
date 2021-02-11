@@ -65,7 +65,7 @@ h4 {
   margin-top: 25px;
 }
 
-h5, .teams_love .carosel_inner p {
+h5, .teams_love .carousel_inner p {
   font-size: 20px;
   color: #5b6987;
   font-weight: 400;
@@ -291,29 +291,29 @@ p {
   margin-bottom: 70px;
 }
 
-.carosel_inner {
+.carousel_inner {
   display: inline-block;
   vertical-align: middle;
   padding: 0 30px;
   max-width: 650px;
 }
 
-.carosel_inner img {
+.carousel_inner img {
   width: 100%;
 }
 
-.carosel_inner p {
+.carousel_inner p {
   color: #031b4e;
   padding-top: 25px;
 }
 
-.carosel_angle {
+.carousel_angle {
   vertical-align: middle;
   font-size: 42px;
   color: #031b4e;
 }
 
-.carosel_angle:first-child {
+.carousel_angle:first-child {
   color: #5b6987;
 }
 
@@ -391,7 +391,7 @@ p {
 /* /sezione service-customers */
 
 /* sezione teams-love */
-.teams_love .carosel_inner {
+.teams_love .carousel_inner {
   margin: 80px 30px 20px 30px;
   max-width: 540px;
   padding: 70px 10px;
@@ -402,19 +402,19 @@ p {
   max-width: 200px;
 }
 
-.teams_love .carosel_inner .member_name,
-.teams_love .carosel_inner .member_role {
+.teams_love .carousel_inner .member_name,
+.teams_love .carousel_inner .member_role {
   font-size: 15px;
   padding: 0;
   margin: 0;
   color: #031b4e;
 }
 
-.teams_love .carosel_inner .member_name {
+.teams_love .carousel_inner .member_name {
   font-weight: bold;
 }
 
-.teams_love .carosel_inner .member_role {
+.teams_love .carousel_inner .member_role {
   margin-bottom: 30px;
 }
 /* /sezione teams-love */
@@ -546,14 +546,14 @@ footer h6 {
     max-width: 430px;
   }
 
-  .teams_love .carosel_inner p {
+  .teams_love .carousel_inner p {
     font-size: 30px;
     margin-bottom: 14px;
   }
 
-  .teams_love .carosel_inner .member_name,
-  .teams_love .carosel_inner .member_role,
-  .teams_love .carosel_inner .custom_link {
+  .teams_love .carousel_inner .member_name,
+  .teams_love .carousel_inner .member_role,
+  .teams_love .carousel_inner .custom_link {
     font-size: 20px;
   }
 
@@ -629,7 +629,7 @@ footer h6 {
   }
 
   /* designed */
-  .carosel_angle {
+  .carousel_angle {
     display: none;
   }
 
@@ -649,13 +649,13 @@ footer h6 {
     max-width: 100%;
   }
 
-  .teams_love .carosel_inner p {
+  .teams_love .carousel_inner p {
     font-size: 36px;
   }
 
-  .teams_love .carosel_inner .member_name,
-  .teams_love .carosel_inner .member_role,
-  .teams_love .carosel_inner .custom_link {
+  .teams_love .carousel_inner .member_name,
+  .teams_love .carousel_inner .member_role,
+  .teams_love .carousel_inner .custom_link {
     font-size: 24px;
   }
 
