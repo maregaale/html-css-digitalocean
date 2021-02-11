@@ -686,6 +686,14 @@ footer h6 {
   }
 
   /* triangolo fumetto */
+  .shark_text {
+    padding-right: 10px;
+  }
+
+  .shark_logo_container {
+    max-width: 60px;
+  }
+  
   .shark_text:after,
   .shark_text:before {
       content: '';
@@ -804,6 +812,12 @@ footer h6 {
   /* sezione start */
   .btn_acc_start {
     font-size: 24px;
+  }
+
+  /* squalo */
+
+  .shark_text p {
+    font-size: 14px;
   }
 
 }
