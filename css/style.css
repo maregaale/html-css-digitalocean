@@ -435,6 +435,12 @@ p {
   font-size: 16px;
   font-weight: 500;
   border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn_acc_start:hover {
+  background: rgba(225,225,225,0.9);
+  color:  #006aff;
 }
 /* /sezione start */
 /* /corpo del progetto */
