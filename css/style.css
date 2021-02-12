@@ -914,6 +914,8 @@ footer h6 {
   }
 
   /* hover squalo */
-  
+  .shark_logo_container:hover + .shark_text {
+    display: block;
+  }
 
 }
