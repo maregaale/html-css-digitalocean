@@ -282,11 +282,8 @@ p {
   list-style: none;
 }
 
-.list_container ul li {
-  border-left: 2px solid lightgrey;
-}
-
 .list_container ul li a {
+  border-left: 2px solid lightgrey;
   display: inline-block;
   padding: 10px;
   color: rgba(3, 27, 78, 0.6);
@@ -298,7 +295,7 @@ p {
   color: black;
 }
 
-.list_container ul li:hover {
+.list_container ul li a:hover {
   border-left: 2px solid blue;
 }
 
