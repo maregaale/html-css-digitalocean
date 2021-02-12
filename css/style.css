@@ -741,7 +741,7 @@ footer h6 {
 
   /* logo squalo */
   .logo_bubble_container {
-    left: 50px;
+    left: 200px;
     bottom: 20px;
   }
 
@@ -791,6 +791,15 @@ footer h6 {
     border-width: 11px;
   }
 
+  /* hover */
+  .shark_logo_container:hover + .shark_text:before {
+    border-color: transparent transparent #006AFF transparent ;
+
+  }
+
+  .shark_logo_container:hover + .shark_text:after {
+    border-color: transparent transparent #006AFF transparent ;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -892,8 +901,19 @@ footer h6 {
   }
 
   /* squalo */
+  .logo_bubble_container {
+    left: 20px;
+    bottom: 8px;
+  }
   .shark_text p {
     font-size: 14px;
   }
+
+  .shark_text {
+    display: none;
+  }
+
+  /* hover squalo */
+  
 
 }
