@@ -87,6 +87,13 @@ p {
 .secondary_nav .btn_empty {
   border: 1px solid #006aff;
   color:  #006aff;
+  transition: all 0.3s ease;
+}
+
+
+.secondary_nav .btn_empty:hover {
+  background-color: #006aff;
+  color: white;
 }
 
 /* /Buttons */
@@ -209,6 +216,11 @@ p {
 #btn_account {
   background-color: #579AFF;
   color: white;
+  transition: all 0.3s ease;
+}
+
+#btn_account:hover {
+  background-color: #006aff;
 }
 
 #btn_google {
@@ -216,6 +228,11 @@ p {
   color: #2F4F4F;
   box-shadow: 2px 2px 3px lightgrey;
   position: relative;
+  transition: all 0.3s ease;
+}
+
+#btn_google:hover {
+  background-color: #E0E0E0;
 }
 
 #btn_google img {
