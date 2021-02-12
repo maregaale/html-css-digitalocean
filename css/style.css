@@ -247,6 +247,10 @@ p {
 
 /* corpo del progetto */
 /* sezione solutions */
+.solutions h4 {
+  margin-top: 0;
+}
+
 .solutions {
   padding: 65px 0;
 }
@@ -271,7 +275,7 @@ p {
 /* sezione deploy */
 .deploy h5 {
   padding: 10px 68px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .list_container {
@@ -358,6 +362,10 @@ p {
 /* /sezione features */
 
 /* sezione service-customers */
+.service_customers h2 {
+  margin-bottom: 20px;
+}
+
 .service_customers {
   background: linear-gradient(0deg, rgba(0,30,153,1) 9%, rgba(0,72,197,1) 90%);
   color: white;
@@ -660,6 +668,7 @@ footer h6 {
   /* deploy */
   .deploy h5 {
     padding: 10px 60px;
+    margin-bottom: 0px;
   }
 
   /* solutions */
@@ -690,6 +699,10 @@ footer h6 {
   /* teams-love */
   .rockerbox {
     max-width: 430px;
+  }
+
+  .teams_love .carousel_inner {
+    margin-top: 50px;
   }
 
   .teams_love .carousel_inner p {
@@ -782,6 +795,7 @@ footer h6 {
 
   h1 {
     font-size: 55px;
+    margin-top: 0;
   }
 
   h2 {
@@ -832,6 +846,10 @@ footer h6 {
   }
 
   /* designed */
+  .designed h5 {
+    margin-bottom: 40px;
+  }
+
   .carousel_angle {
     display: none;
   }
@@ -853,6 +871,7 @@ footer h6 {
   }
   .teams_love .carousel_inner {
     padding: 50px 10px;
+    margin-top: 40px;
   }
 
   .teams_love .carousel_inner p {
