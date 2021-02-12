@@ -752,18 +752,20 @@ footer h6 {
   }
 
   .shark_text {
-    margin-top: 20px;
+    margin-top: 15px;
+    padding: 8px 10px 8px 8px;
+    max-width: 250px;
   }
 
-  /* triangolo fumetto */
-  .shark_text {
-    padding-right: 10px;
+  .shark_text p {
+    font-size: 12px;
   }
 
   .shark_logo_container {
-    max-width: 60px;
+    max-width: 50px;
   }
 
+  /* triangolo fumetto */
   .shark_text:after,
   .shark_text:before {
       content: '';
