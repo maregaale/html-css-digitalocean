@@ -511,9 +511,8 @@ footer h6 {
 /* logo squalo e fumetto */
 .logo_bubble_container {
   position: fixed;
-  right: 50px;
-  bottom: 40px;
-
+  right: 30px;
+  bottom: 30px;
 }
 
 .shark_logo_container {
