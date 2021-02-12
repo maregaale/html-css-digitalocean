@@ -508,6 +508,7 @@ footer h6 {
   margin-bottom: 8px;
 }
 
+/* logo squalo e fumetto */
 .logo_bubble_container {
   position: fixed;
   right: 50px;
@@ -548,6 +549,7 @@ footer h6 {
 .shark_logo_container img {
   width: 100%;
 }
+
 
 /* circoletto con numero nel logo squalo */
 .circle_number {
@@ -601,6 +603,22 @@ footer h6 {
   border-color: transparent transparent transparent lightgrey;
   border-width: 11px;
 }
+
+/* hover */
+.shark_logo_container:hover + .shark_text {
+  background-color: #006AFF;
+  border: 1px solid #006AFF;
+}
+
+.shark_logo_container:hover + .shark_text p {
+  color: white;
+}
+
+.shark_logo_container:hover + .shark_text:before,
+.shark_logo_container:hover + .shark_text:after {
+  border-color: transparent transparent transparent #006AFF;
+}
+/* /logo squalo e fumetto*/
 /* /footer */
 
 
