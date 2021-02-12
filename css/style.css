@@ -275,7 +275,6 @@ p {
 }
 
 .list_container {
-  border-left: 2px solid lightgrey;
   margin-top: 40px;
 }
 
@@ -284,10 +283,12 @@ p {
 }
 
 .list_container ul li {
-  padding: 10px;
+  border-left: 2px solid lightgrey;
 }
 
 .list_container ul li a {
+  display: inline-block;
+  padding: 10px;
   color: rgba(3, 27, 78, 0.6);
   font-size: 16px;
   font-weight: 500;
@@ -295,6 +296,10 @@ p {
 
 .list_container ul li a:hover {
   color: black;
+}
+
+.list_container ul li:hover {
+  border-left: 2px solid blue;
 }
 
 .deploy_img {
